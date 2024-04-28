@@ -5,7 +5,7 @@
 
 // Run each function to see the output, play and learn by doing.
 
-// push()
+// push() : adding the elements at the end of the array and return new array
 function pushExample(arr, element) {
   console.log("Original Array:", arr);
 
@@ -14,7 +14,8 @@ function pushExample(arr, element) {
 }
 pushExample([1, 2, 3], 4);
 
-// pop()
+//  pop(): Removes the last element from an array and returns that element.
+
 function popExample(arr) {
   console.log("Original Array:", arr);
 
@@ -23,7 +24,7 @@ function popExample(arr) {
 }
 popExample([1, 2, 3]);
 
-// shift()
+// shift() 
 function shiftExample(arr) {
   console.log("Original Array:", arr);
 
